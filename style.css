@@ -1,0 +1,48 @@
+header {
+  background-color: #008000; /* Verde */
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-weight: bold;
+  color: #fff; /* Branco */
+  margin-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+header button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  width: 30%; /* Largura de cada container */
+  margin: 10px; /* Espaçamento entre os containers */
+  display: inline-block; /* Exibir os containers em linha */
+  vertical-align: top; /* Alinhar os containers pelo topo */
+  text-align: center; /* Centralizar o texto */
+}
+
+.container img {
+  width: 100%; /* Largura da imagem */
+  height: 150px; /* Altura da imagem */
+  object-fit: cover; /* Ajustar a imagem para cobrir o espaço */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.container p {
+  font-size: 16px; /* Tamanho da fonte */
+  margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+a {
+  text-decoration: none; /* Remover sublinhado do link */
+  color: inherit; /* Herdar a cor do texto */
+}
